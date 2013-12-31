@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04830522186C37F700CA0BDD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04830521186C37F700CA0BDD /* main.c */; };
+		04830522186C37F700CA0BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04830521186C37F700CA0BDD /* main.m */; };
 		04830524186C37F700CA0BDD /* MyAlgorithm.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04830523186C37F700CA0BDD /* MyAlgorithm.1 */; };
+		04D9AFA31872761400CD01F2 /* NSArray+MyStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9AFA21872761400CD01F2 /* NSArray+MyStuff.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		0483051E186C37F700CA0BDD /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		04830521186C37F700CA0BDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04830521186C37F700CA0BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04830523186C37F700CA0BDD /* MyAlgorithm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MyAlgorithm.1; sourceTree = "<group>"; };
+		04D9AFA11872761400CD01F2 /* NSArray+MyStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MyStuff.h"; sourceTree = "<group>"; };
+		04D9AFA21872761400CD01F2 /* NSArray+MyStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MyStuff.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 		04830520186C37F700CA0BDD /* MyAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				04830521186C37F700CA0BDD /* main.c */,
+				04830521186C37F700CA0BDD /* main.m */,
 				04830523186C37F700CA0BDD /* MyAlgorithm.1 */,
+				04D9AFA11872761400CD01F2 /* NSArray+MyStuff.h */,
+				04D9AFA21872761400CD01F2 /* NSArray+MyStuff.m */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -117,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04830522186C37F700CA0BDD /* main.c in Sources */,
+				04830522186C37F700CA0BDD /* main.m in Sources */,
+				04D9AFA31872761400CD01F2 /* NSArray+MyStuff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +231,7 @@
 				04830529186C37F700CA0BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

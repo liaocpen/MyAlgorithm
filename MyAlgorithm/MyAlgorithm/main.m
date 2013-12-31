@@ -6,13 +6,12 @@
 //  Copyright (c) 2013年 lanhu. All rights reserved.
 //
 
-#include <stdio.h>
+#import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    @autoreleasepool {
+        
+    }
 }
 
