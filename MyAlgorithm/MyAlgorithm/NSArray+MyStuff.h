@@ -32,5 +32,49 @@
 - (NSArray *)CocoaImplementationOfReversedArray;
 
 - (NSArray *)intersectionWithArray:(NSArray *)secondArray;
+- (NSArray *)unionWithoutDuplicatesWithArray:(NSArray *)secondArray;
+- (BOOL)hasDuplicates;
++ (NSArray *)randomObjectsWithArraySize:(NSUInteger)arraySize maxRandomValue:(NSUInteger)maxValue uniqueObjects:(BOOL)unique;
+- (BOOL)isSorted;
+
+
+/**
+ *  Array Shuffle
+ *
+ *
+ *  return Array with elements of original array in a randomized order
+ */
+- (NSArray *)shuffledArray;
+
+/**
+ *  Sum of array elements
+    @note Assumes array of long long values
+    @retrun NSNumber with long long int value
+ */
+- (NSNumber *)sumOfElements;
+
+//search
+
+- (NSInteger)indexOfObjectViaLinearSearch:(id)object;
+- (NSInteger)indexOfObjectViaBinarySearch:(id)object;
+
+//sort
+- (NSMutableArray *)bubbleSortedArray;
+- (NSMutableArray *)shellSortedArray;
+- (NSMutableArray *)mergeSortedArray;
+- (NSMutableArray *)quickSortedArrayWithLeftIndex:(NSInteger)left withRightIndex:(NSInteger)right;
+- (NSMutableArray *)insertionSortedArray;
+- (NSMutableArray *)selectionSotedArray;
+- (NSMutableArray *)heapSortedArray;
+
+
+
+
+
+
+
+
+
+
 
 @end
